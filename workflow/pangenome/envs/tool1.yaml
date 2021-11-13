@@ -1,0 +1,7 @@
+name: <name>
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - <software1>
+  - <software2>

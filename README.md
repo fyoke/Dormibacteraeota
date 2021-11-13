@@ -9,8 +9,7 @@ Dormibacteraeota is a bacterial phylum that was newly discovered in XXX (20XX). 
 
 With the increasing availability of public metagenomes and Dormibacteraeota MAGs, we are set out apply computational methods to investigate it's diversity and ecology using phylogenomics and metapangenomics methods.
 
-##
-# TODO
+### TODO
 
 - Fill in input_folder/genomes with genomes (fasta)
 - Fill in input_folder/genome_metadata.tsv (easy edit with Excel)
