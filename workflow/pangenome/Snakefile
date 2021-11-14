@@ -1,0 +1,6 @@
+
+include: "rules/module1.yaml"
+
+rule all:
+	input:
+		rules.YYY.output
