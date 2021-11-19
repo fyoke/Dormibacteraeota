@@ -1,0 +1,14 @@
+import sys
+import os
+import re
+
+include: "rules/prodigal.smk"
+include: "rules/defense_finder.smk"
+
+samples = [re.sub(".fasta", "", file) for file in os.listdir("../../input_folder/genomes") if file.endswith("fasta")]
+
+genetic_codes = [4,11,15]
+
+rule all:
+    input:
+        expand(rules.defensefinder.output, sample = samples, genetic_code = genetic_codes)

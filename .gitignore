@@ -1,6 +1,7 @@
 # Yoke added
-# Later uncomment this: input_folder/genomes
+input_folder/genomes
 results
+.snakemake/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
